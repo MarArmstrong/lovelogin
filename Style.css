@@ -1,0 +1,308 @@
+
+
+body{
+  background-image:url(gallery/color-background.jpg);
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #464646;
+    background-position: center center;
+    background-size: cover;
+}
+
+.logo{
+  height: 40%;
+  width: 40%;
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.Sign{
+  font-size: 3em;
+  text-align: center;
+  font-family: "SF UI Display";
+  color: white;
+  font-weight: lighter;
+}
+
+
+.Sign-in{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 55px;
+  border-radius:32px;
+  height: 70em;
+  width: 90%;
+
+
+}
+
+input{
+  border-style: hidden;
+  border-color: #e0e0e0;
+  border-bottom: 3px outset;
+  font-size: 65%;
+  width: 100%;
+  height: 3em;
+  margin-top: 7%;
+}
+
+input:focus {
+	outline: none;
+  	border-bottom: 3px solid #b72c78;
+}
+
+.cross {
+  color: #b72c78;
+  margin-left: -30px;
+  cursor: pointer;
+
+}
+
+
+.pass {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.passv{
+    margin-left: -30px;
+    cursor: pointer;
+    width: 8%;
+    position:absolute;
+    top: 780px;
+    right: 100px;
+}
+
+#terms{
+  color: #b72c78;
+  font-weight: bold;
+}
+#terms:link {
+  text-decoration: none;
+}
+#terms:visited {
+  text-decoration: none;
+}
+#terms:hover {
+  text-decoration: none;
+}
+#terms:active {
+  text-decoration: none;
+}
+
+
+
+
+#cbox1{
+  position:absolute;
+  top: 700px;
+  right: -230px;
+    visibility: hidden;
+}
+
+#cbox2{
+  position:absolute;
+  top: 865px;
+  right: -230px;
+  visibility: hidden;
+}
+
+.pass{
+  width: 8%;
+  position:absolute;
+  top: 780px;
+  right: 100px;
+
+}
+
+
+
+.repass{
+  width:8%;
+  position:absolute;
+  right: 100px;
+  top: 940px;
+}
+
+
+
+h2{
+  font-size: 3em;
+  text-align: center;
+  font-family: SF UI Display;
+  color: #595959;
+  margin-top: 1px;
+  }
+
+
+.introtext{
+    padding-top: 10%;
+    margin: auto;
+}
+
+.Terms{
+  font-size: 70%;
+  font-family: SF UI Display;
+  font-weight: lighter;
+  color: gray;
+  text-align: justify;
+  padding-left: 7%;
+}
+
+.check{
+  padding-top: 1%;
+  margin-right: 5%;
+  margin-top: 5%;
+  width: 6%;
+  height: 6%;
+  position: relative; left: 20px; top: 10px;
+}
+
+
+  .myButton {
+  	background:linear-gradient(to bottom, #b62d78 5%, #974091 100%);
+  	background-color:#b62d78;
+  	border-radius:45px;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#ffffff;
+  	font-family: SF UI Display;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  	text-decoration:none;
+    width: 90%;
+    height: 45px;
+    font-size: 70%;
+    font-weight: lighter;
+    margin-top: 10%;
+    align-items: center;
+  }
+
+  .myButton:active {
+  	position:relative;
+  	top:1px;
+    background:linear-gradient(to bottom, #902562 5%, #7a3273 100%);
+	  background-color:#902562;
+  }
+
+  .login {
+	box-shadow: 0 1px 0 0 #ffffff;
+	background-color:transparent;
+	border-radius:50px;
+	border: 1px solid #ffffff;
+	display:flex;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: SF UI Display;
+	font-size:70%;
+	font-weight:normal;
+	padding:25px 69px;
+	text-decoration:none;
+  margin-top: 4em;
+  margin-left: 40px;
+  width: 75%;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.login:active {
+	position:relative;
+	top:1px;
+}
+
+.cross{
+  visibility: hidden;
+}
+
+.faceb, .instag {
+  font-size: 28px;
+  font-family: SF UI Display;
+  font-weight: normal;
+  position: relative; left: 20px; bottom: 10px;
+
+
+}
+
+.face {
+  text-align: center;
+	box-shadow: 0 1px 0 0 #ffffff;
+	background-color:transparent;
+	border-radius:50px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:SF UI Display;
+	font-size:60%;
+	font-weight:lighter;
+	padding:10px 69px;
+	text-decoration:none;
+
+  margin-top: 80px;
+  margin-bottom: 5px;
+  width: 75%;
+
+}
+.face:hover {
+	background-color:transparent;
+}
+.face:active {
+	position:relative;
+	top:1px;
+}
+
+
+.insta {
+	box-shadow: 0 1px 0 0 #ffffff;
+	background-color:transparent;
+	border-radius:50px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:SF UI Display;
+	font-size:60%;
+	font-weight:lighter;
+	padding:10px 69px;
+	text-decoration:none;
+
+  width: 75%;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+
+
+.insta:active {
+	position:relative;
+	top:1px;
+
+}
+
+span{
+  position:relative; right: 160px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1028px) {
+  .Sign-in{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:32px;
+    padding-bottom: 10px;
+    height: 70em;
+    width: 90%;
+
+  }
+}

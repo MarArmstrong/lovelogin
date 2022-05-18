@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>LO❤️ Sign up</title>
+  <link rel="stylesheet" href="Style.css">
+  <meta charset="utf-8">
+  <script src="https://kit.fontawesome.com/11e361466d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <img class="logo" src="Gallery/LOV3Logotype.png" alt="">
+  <p class="Sign">Sign up</p>
+  <form class="Sign-in" action="">
+    <h2 class="introtext">Join us<h2/>
+      <div id="userdiv" class="User">
+        <input class="Usern" type="text"
+               placeholder="Username"
+               id="userN" onclick="showx()" >
+               <i type="button" id="cleartext" onclick="clearField()" class="cross fa-solid fa-xmark"></i> <br>
+
+      </div>
+      <div class=" Pass">
+        <input type="password" placeholder="Password" name="password" id="id-password"><br>
+        <img class="pass" id="togglePassword" onclick="showPass()" src="Gallery/visible.png"/>
+
+      </div>
+
+      <div class="repeat Pass">
+        <input type="password" placeholder="Repeat Password" id="myInput2"><br>
+        <img class="repass" id="repassimg" onclick="showRePass()" src="Gallery/visible.png"/>
+      </div>
+      <div class="email">
+        <input type="mail"
+        placeholder="Email Address"
+        id="email"
+        onclick="showxemail()" >
+        <i id="clearmail" onclick="clearMail()" class="cross fa-solid fa-xmark" ></i> <br>
+      </div>
+      <div class="Terms">
+        <img class="check" src="Gallery/Checkboxoff.png"
+        id="imgClickAndChange" onclick="changeImage()"/> Agree to our <a id="terms" href="#">Terms & Other Stuff</a>
+      </div>
+
+      <div class="butt-Sign-In">
+        <a href="#" class="myButton">Create New Account</a>
+      </div>
+  </form>
+    <div>
+      <a href="#" class="login">Login</a>
+    </div>
+    <div>
+      <a href="#" id="facetext" class="face"><span><i class="fa-brands fa-facebook fa-2x" ></i></span><span class="faceb">Create Account With Facebook</span></a>
+    </div>
+    <div>
+      <a href="#" class="insta"><span><i class="fa-brands fa-instagram fa-2x" ></i></span><span class="instag">Create Account With Instagram</span></a>
+    </div>
+
+
+<script src="index.js"></script>
+</body>
+
+
+
+
+</script>
+</html>
